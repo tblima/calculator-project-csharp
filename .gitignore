@@ -1,0 +1,44 @@
+# Compilação
+bin/
+obj/
+out/
+
+# Pacotes
+*.nupkg
+*.snupkg
+packages/
+# Se quiser manter arquivos de packages locais, remova a linha acima
+
+# Arquivos temporários
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Configurações do Visual Studio
+.vs/
+*.dbmdl
+*.dbproj.schemaview
+
+# Arquivos do Rider/Resharper
+.idea/
+*.DotSettings.user
+
+# Build do Visual Studio
+Generated\ Files/
+
+# Cache do Visual Studio Code
+.vscode/
+
+# Testes
+TestResult*/
+build/
+TestResults/
+*.coverage
+*.coveragexml
+
+# Publicações
+publish/
